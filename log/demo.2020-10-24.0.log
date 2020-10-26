@@ -1,0 +1,13 @@
+2020-10-24 14:14:04,368 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:14:07,001 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:14:07,003 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:14:07,004 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:14:10,533 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:14:10,534 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:14:10,534 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:17,665 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on H42023 with PID 22772 (E:\javacode\mes\platemes\target\classes started by B15228 in E:\javacode\mes\platemes)
+2020-10-24 14:15:17,669 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-10-24 14:15:21,077 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 3.932 seconds (JVM running for 5.129)
+2020-10-24 14:15:24,623 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:24,623 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:24,623 ERROR (factoryBasController.java:30)- this is error

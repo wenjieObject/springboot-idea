@@ -1,0 +1,17 @@
+2020-10-24 14:15:30,942 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:30,945 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:30,946 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:39,022 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:39,023 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:39,023 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:39,368 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:39,368 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:39,368 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:39,573 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:39,574 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:39,574 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:39,739 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:39,740 WARN (factoryBasController.java:29)- this is warn
+2020-10-24 14:15:39,740 ERROR (factoryBasController.java:30)- this is error
+2020-10-24 14:15:39,900 INFO (factoryBasController.java:28)- this is info
+2020-10-24 14:15:39,900 WARN (factoryBasController.java:29)- this is warn
