@@ -11,12 +11,15 @@ spring:
     url: jdbc:oracle:thin:@//10.40.3.215:1521/orcl
     username: bowaymes
     password: Boway1qaz@WSX
+
+
+
+
 #logging:
 #  file:
 #    path: logs/
 #    name:  ${logging.file.path}springboot.log
 #  level:
 #    root: trace
-
 
 
