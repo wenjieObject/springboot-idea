@@ -17,8 +17,7 @@ public class factoryBasService {
     public String Test(){
         List<FactoryBas> all = factoryBasRepository.findAll();
 
-        for (FactoryBas factoryBas:all
-             ) {
+        for (FactoryBas factoryBas:all) {
             String s = factoryBas.toString();
             System.out.println(s);
         }
