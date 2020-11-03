@@ -12,6 +12,11 @@ spring:
     username: bowaymes
     password: Boway1qaz@WSX
 
+  cache:
+    type: jcache
+    jcache:
+      config: classpath:ehcache.xml
+
 
 
 
