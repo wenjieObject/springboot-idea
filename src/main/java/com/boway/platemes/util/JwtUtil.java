@@ -45,18 +45,17 @@ public class JwtUtil {
 
     public static boolean verify(String token,String username,String secret){
 
-        return 1==1;
-//        try{
-//            Algorithm algorithm=Algorithm.HMAC256(secret);
-//            JWTVerifier verifier=JWT.require(algorithm)
-//                    .withClaim("username",username)
-//                    .build();
-//            DecodedJWT jwt=verifier.verify(token);
-//
-//            return true;
-//        }catch (Exception e){
-//            return false;
-//        }
+        try{
+            Algorithm algorithm=Algorithm.HMAC256(secret);
+            JWTVerifier verifier=JWT.require(algorithm)
+                    .withClaim("username",username)
+                    .build();
+            DecodedJWT jwt=verifier.verify(token);
+
+            return true;
+        }catch (Exception e){
+            return false;
+        }
     }
 
     /*

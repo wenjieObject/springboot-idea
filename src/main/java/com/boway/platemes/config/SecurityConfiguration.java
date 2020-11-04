@@ -80,7 +80,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
-
     /*此处我们实现缓存的时候，我们使用了官方现成的  CachingUserDetailsService
     ，但是这个类的构造方法不是 public的，
      我们不能够正常实例化，所以在这里进行曲线救国。

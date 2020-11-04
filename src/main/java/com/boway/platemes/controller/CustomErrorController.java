@@ -17,6 +17,8 @@ public class CustomErrorController implements ErrorController {
 
     @RequestMapping("/error")
     public ResultVO handleError(HttpServletRequest request, HttpServletResponse response) {
+
+        String str = (String) request.getAttribute("javax.servlet.error.message");
         return new ResultVO(response.getStatus(), (String) request.getAttribute("javax.servlet.error.message"), null);
 
     }
