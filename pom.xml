@@ -24,12 +24,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!--热部署 -->
 
         <!--  操作数据库jpa-->
         <dependency>
@@ -128,6 +130,9 @@
             <version>1.1.1</version>
         </dependency>
         <!--Spring Security 结束-->
+
+
+
 
         <dependency>
             <groupId>cn.easyproject</groupId>

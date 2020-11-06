@@ -8,9 +8,9 @@ spring:
       ddl-auto: none
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: xxxxxx
-    username: xxxxx
-    password: xxxxxx
+    url: jdbc:oracle:thin:@//10.40.3.215:1521/orcl
+    username: bowaymes
+    password: Boway1qaz@WSX
 
   cache:
     type: jcache

@@ -1,0 +1,27 @@
+2020-11-05 11:59:14,645 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 15472 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 11:59:14,651 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 11:59:20,702 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.436 seconds (JVM running for 8.138)
+2020-11-05 17:31:53,226 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 15548 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 17:31:53,229 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 17:31:59,542 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.767 seconds (JVM running for 9.051)
+2020-11-05 17:36:15,411 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 14276 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 17:36:15,414 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 17:36:21,522 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.645 seconds (JVM running for 8.298)
+2020-11-05 17:37:31,965 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 15492 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 17:37:31,968 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 17:37:37,851 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.389 seconds (JVM running for 8.046)
+2020-11-05 17:41:59,870 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 19236 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 17:41:59,873 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 17:42:05,213 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 5.954 seconds (JVM running for 7.492)
+2020-11-05 19:15:45,914 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 7512 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 19:15:45,917 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 19:15:51,814 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.439 seconds (JVM running for 8.162)
+2020-11-05 19:20:02,602 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 11952 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 19:20:02,606 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 19:20:09,021 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 6.959 seconds (JVM running for 9.197)
+2020-11-05 19:31:46,118 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 20412 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 19:31:46,122 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 19:31:51,425 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 5.877 seconds (JVM running for 7.319)
+2020-11-05 19:43:22,446 INFO (StartupInfoLogger.java:55)- Starting PlatemesApplication on WIN-78K7V47GIDT with PID 7256 (E:\javaCode\springboot-idea\target\classes started by Administrator in E:\javaCode\springboot-idea)
+2020-11-05 19:43:22,450 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-11-05 19:43:27,767 INFO (StartupInfoLogger.java:61)- Started PlatemesApplication in 5.878 seconds (JVM running for 7.325)

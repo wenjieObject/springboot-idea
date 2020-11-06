@@ -17,6 +17,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
+    @GetMapping("/")
+    public String hotBuild(){
+        return "hello world hot build";
+    }
+
+    @GetMapping("/hb")
+    public String hotBuild2(){
+        return "hello world hot build";
+    }
 //    @PostMapping("login")
 //    public String login(String username,String password){
 //

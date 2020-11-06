@@ -33,6 +33,7 @@ public class CodeFactor  implements Serializable {
    	@Column(name = "CODE_TYPE_NAME" )
 	private String codeTypeName;
 
+
 	/**
 	 * 工厂
 	 */

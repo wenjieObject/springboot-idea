@@ -24,7 +24,7 @@ public interface orderBaseRepository extends  JpaRepository<WipOrder, String> {
             "left join WIP_ORDER t1 \n" +
             "on t.order_guid=t1.guid \n" +
             "where  t.delete_flag='N' and t1.delete_flag='N'   " +
-            "and t.brand_guid in ('35452ef0-f610-4434-b6e5-f264f271c7b7','47ab25d0-0f7d-4564-82b7-d4270a62cf7b') ",nativeQuery = true)
+            "and t.brand_guid in ('35452ef0-f610-4434-b6e5-f264f271c7b7','47ab25d0-0f7d-4564-82b7-d4270a62cf7b')  ",nativeQuery = true)
     public  List<Map<String,Object>>  getOrderBase();
 
 

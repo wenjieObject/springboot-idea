@@ -44,7 +44,7 @@ public class orderBaseService {
 
     public List<OrderBaseResult> getBottomDesc() {
 
-        //1.获取7521/7701牌号的询单，白铜
+        //1.获取7521/7701牌号的询单，白铜 --SD210024860
         //2.根据询单的最终用户，最终用户，产品规范 匹配制造规范
         //3.查询制造规范的留底索引
         //4.根据询单的 订单厚度+（正厚度公差+负厚度公差）/2 去匹配留底索引下的序号，查询到目标规格
@@ -57,6 +57,8 @@ public class orderBaseService {
         List<OrderBaseResult> orderBaseResults = new ArrayList<>();
         for (OrderBase item : irsList) {
 
+            if(!"SD200406023".equals(item.getInquiries_no()))continue;
+
             float targetThick = item.getSpec1() + (item.getN_SPEC1_TOL() + item.getP_SPEC1_TOL()) / 2;
 
             CppPrdMadeRuleRelationBas relationBas = relationRepository.getByDeleteFlagAndPrdGuidAndFinalUserGuidAndFinalFunctionGuid("N", item.getPrd_guid(), item.getFinal_user_guid(), item.getFinal_function_guid());
@@ -67,6 +69,7 @@ public class orderBaseService {
 
             CppMadeRule cppMadeRule = madeRuleRepository.getOne(madeRuleGuid);
 
+            //留底规格转换
             CppMadeRuleItemDetail madeRuleItemDetail = madeRuleDetailRepository.getByDeleteFlagAndCategoryGuidAndCategoryNoAndItemCategoryGuid("N", cppMadeRule.getGuid(), "1", "493083a3-2dbd-4a2b-9848-7950050b8853");
 
             if (madeRuleItemDetail == null) continue;
@@ -82,6 +85,7 @@ public class orderBaseService {
 
             CppItemDetail itemDetail = collectors.get(0);
 
+            //来料厚度目标值
             CppItemDetailSub cppItemDetailSub = itemDetailSubRepository.getByDeleteFlagAndFromGuidAndItemParmGuid("N", itemDetail.getGuid(), "e975ad85-ac99-47c3-a8c7-4145b4141f62");
             //目标厚度
             String targetSpec1 = cppItemDetailSub.getItemParmValue();
