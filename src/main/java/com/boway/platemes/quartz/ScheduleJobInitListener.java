@@ -17,6 +17,7 @@ public class ScheduleJobInitListener implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         try {
+            //return;
             scheduleJobService.initSchedule();
         } catch (Exception e) {
             e.printStackTrace();

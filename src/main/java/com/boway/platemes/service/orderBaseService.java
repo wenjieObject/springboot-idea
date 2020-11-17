@@ -57,7 +57,7 @@ public class orderBaseService {
         List<OrderBaseResult> orderBaseResults = new ArrayList<>();
         for (OrderBase item : irsList) {
 
-            if(!"SD200406023".equals(item.getInquiries_no()))continue;
+            //if(!"SD200406023".equals(item.getInquiries_no()))continue;
 
             float targetThick = item.getSpec1() + (item.getN_SPEC1_TOL() + item.getP_SPEC1_TOL()) / 2;
 

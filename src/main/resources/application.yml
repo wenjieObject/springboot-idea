@@ -16,6 +16,21 @@ spring:
     type: jcache
     jcache:
       config: classpath:ehcache.xml
+  redis:
+    host: 10.40.3.209
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 200
+        max-wait: -1
+        max-idle: 500
+        min-idle: 0
+        shutdown-timeout: 0
+    timeout: 1000
+
+
+
 
 
 
