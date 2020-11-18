@@ -28,6 +28,32 @@ spring:
         min-idle: 0
         shutdown-timeout: 0
     timeout: 1000
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-returns: true
+    listener:
+      direct:
+        acknowledge-mode: manual
+      simple:
+        acknowledge-mode: manual
+
+# 自定义配置应用于topic交换器
+mq:
+  config:
+    #自定义交换器名称
+    exchange: log.topic
+    queue:
+      #自定义error、info、all队列名称
+      errorName: topic.error.log
+      infoName: topic.info.log
+      allName: topic.all.log
+      #自定义error、info、all路由键的名称
+      routingInfoKey: topic.info.routing.key
+      routingErrorKey: topic.error.routing.key
+
 
 
 
