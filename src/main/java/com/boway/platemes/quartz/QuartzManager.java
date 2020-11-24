@@ -141,7 +141,6 @@ public class QuartzManager {
     public void deleteJob(TaskDO task) throws SchedulerException {
         JobKey jobKey = JobKey.jobKey(task.getJobName(), task.getJobGroup());
         scheduler.deleteJob(jobKey);
-
     }
 
     /**
@@ -162,18 +161,11 @@ public class QuartzManager {
      * @throws SchedulerException
      */
     public void updateJobCron(TaskDO task) throws SchedulerException {
-
         TriggerKey triggerKey = TriggerKey.triggerKey(task.getJobName(), task.getJobGroup());
-
         CronTrigger trigger = (CronTrigger) scheduler.getTrigger(triggerKey);
-
         CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(task.getCronExpression());
-
         trigger = trigger.getTriggerBuilder().withIdentity(triggerKey).withSchedule(scheduleBuilder).build();
-
         scheduler.rescheduleJob(triggerKey, trigger);
     }
-
-
 
 }

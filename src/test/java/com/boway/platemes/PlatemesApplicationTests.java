@@ -2,6 +2,7 @@ package com.boway.platemes;
 
 
 import com.boway.platemes.pojo.UserEntity;
+import com.boway.platemes.util.CodeDOM;
 import com.boway.platemes.util.RedisUtil;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.junit.Test;
@@ -58,7 +59,9 @@ public class PlatemesApplicationTests {
     @Test
    public void contextLoads() {
 
-        redisTemplate.delete("myKey");
+        CodeDOM codeDOM=new CodeDOM();
+        codeDOM.createRepository();
+        //redisTemplate.delete("myKey");
 
         // 1.构建GetRequest请求对象,指定索引库、类型、id
 //        GetRequest getRequest = new GetRequest("primeton_esb_log_202010", "_doc"
