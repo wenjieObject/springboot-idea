@@ -29,7 +29,7 @@ public class CodeDOM {
 
             File file2 = new File(basePath + lowerCase(tableName)+"Repository.java");
             if(file2.exists()){
-                return;
+                continue;
             }
 
             File file = FileUtil.createFile(basePath + lowerCase(tableName)+"Repository.java");
