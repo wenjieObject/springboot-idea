@@ -1,6 +1,7 @@
 package com.boway.platemes.entity;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class BaseEntity {
 
@@ -28,6 +29,16 @@ public class BaseEntity {
      * 标志位
      */
     private String flag;
+
+    private String guid;
+
+    public String getGuid() {
+        return guid;
+    }
+
+    public void setGuid(String guid) {
+        this.guid = guid;
+    }
 
     public String getCreator() {
         return creator;
@@ -98,6 +109,7 @@ public class BaseEntity {
         this.flag = "1";
         this.deleteFlag = "N";
         this.factory = "3000";
+        this.guid= UUID.randomUUID().toString();
     }
 
     public static BaseEntity Build(){

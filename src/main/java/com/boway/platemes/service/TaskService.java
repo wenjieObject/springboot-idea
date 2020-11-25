@@ -44,14 +44,17 @@ public class TaskService {
 
     public void initSchedule() throws SchedulerException {
 
+        //不再执行
+        return;
         //模拟从数据库获取数据
-        TaskDO taskDo=new TaskDO();
-        taskDo.setBeanClass("com.boway.platemes.quartz.HelloWorldJob");
-        taskDo.setJobName("HelloWorldJob");
-        taskDo.setJobName("HelloWorldJobGroup");
-        taskDo.setCronExpression("*/5 * * * * ?");
-        taskDo.setJobStatus("1");
-        quartzManager.addJob(taskDo);
+//        TaskDO taskDo=new TaskDO();
+//        taskDo.setBeanClass("com.boway.platemes.quartz.HelloWorldJob");
+//        taskDo.setJobName("HelloWorldJob");
+//        taskDo.setJobName("HelloWorldJobGroup");
+//        taskDo.setCronExpression("*/5 * * * * ?");
+//        taskDo.setJobStatus("1");
+//        quartzManager.addJob(taskDo);
+
         // 这里获取任务信息数据
 //        List<TaskDO> jobList = new ArrayList<>();
 //        for (TaskDO task : jobList) {
